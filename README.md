@@ -1,67 +1,45 @@
-# DeepikaS_QA_Automation_Portfolio
+#  QA Testing Portfolio – Deepika S
 
-##  Overview
-This repository contains two complete Selenium Python automation frameworks:
-
-1. **SauceDemo_Automation**
-2. **HerokuApp_Automation**
-
-Each project demonstrates:
-- Page Object Model (POM) framework
-- Selenium WebDriver automation using Python
-- Pytest for test execution
-- Allure and HTML reporting for visualization
-- Simulated bug examples and professional documentation
+Welcome to my **Quality Assurance Portfolio**, showcasing my work in **Manual, API, and Automation Testing** through real-time demo projects and a 60-day structured self-learning program.
 
 ---
 
-##  How to Run the Projects
+##  Documents Included
 
-### 1.Clone this Repository
-```bash
-git clone https://github.com/deepika-sekar-qa/DeepikaS_QA_Automation_Portfolio.git
+### 1️. Manual, API & Test Cycle Reports
+📄 [QA Portfolio – Manual, API & Test Cycle Reports.pdf](./QA_Portfolio_Manual_API_Test_Cycle.pdf)  
+Includes:
+- Manual test cases, bug reports, and test summary  
+- API testing using Postman and schema validation  
+- Test cycle execution reports with screenshots  
 
-2.Navigate to a Project
-cd SauceDemo_Automation
-OR
-cd HerokuApp_Automation
+### 2️. Herokuapp Automation Project
+📄 [Herokuapp Automation Project.pdf](./Herokuapp_Automation_Project.pdf)  
+Includes:
+- Selenium WebDriver automation using Python  
+- Test scripts for login, form validation, and alert handling  
 
-3️. Install Dependencies
-pip install -r requirements.txt
+### 3️. SauceDemo Automation Project
+📄 [SauceDemo Automation Project.pdf](./SauceDemo_Automation_Project.pdf)  
+Includes:
+- End-to-end UI automation test scripts  
+- Test execution reports and logs  
 
-4️. Run Tests with HTML Report
-pytest -s Tests/test_app_feature.py --html=Reports/report.html --self-contained-html
+---
 
-or (for HerokuApp)
+##  Tools & Technologies
+Selenium | Python | Postman | Jira | Zephyr | TestRail | JSON Server | Newman CLI
 
-pytest -s Tests/test_login.py --html=Reports/report.html --self-contained-html
+---
 
-5️. Run Tests with Allure Report
-pytest -s Tests/test_app_feature.py --alluredir=Reports/allure-results
-allure serve Reports/allure-results
+##  About Me
+I’m **Deepika S**, an Electronics and Communication Engineering graduate (Anna University, 2019), passionate about **Software Quality Assurance**.  
+Through self-learning and hands-on practice, I completed a **60-day structured QA study plan**, gaining strong skills in **Manual, API, and Automation Testing**.  
 
-or (for HerokuApp)
+ My goal is to work as a **Remote QA Engineer** and contribute to delivering reliable, high-quality software solutions.
 
-pytest -s Tests/test_login.py --alluredir=Reports/allure-results
-allure serve Reports/allure-results
+ **Contact:** [deepika.sekar.qa@gmail.com](mailto:deepika.sekar.qa@gmail.com)
 
-  Future Integrations & Version Control Setup
+---
 
- Integrated Allure Reporting for visual test analytics
- Added requirements.txt for one-click dependency installation
- Captured and documented simulated bug examples
- Uploaded project to GitHub (Public Repository)
- Ready for CI/CD and GitHub Actions setup
-
- Portfolio Documentation
-
-SauceDemo_Portfolio_DeepikaS.docx
-
-HerokuApp_Portfolio_DeepikaS.docx
-
-Author
-Deepika Sekar
-Email: deepika.sekar.qa@gmail.com
-GitHub: https://github.com/deepika-sekar-qa
-
-This QA Automation Portfolio demonstrates hands-on experience in building end-to-end Selenium Python frameworks with Allure reporting and CI/CD readiness.
+ *Thank you for visiting my QA Portfolio!*
